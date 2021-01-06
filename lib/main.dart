@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       child: child,
     );
   },
-        title: 'Netra',
+        title: 'Vision',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,

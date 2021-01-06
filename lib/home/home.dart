@@ -258,7 +258,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                     child: Column(
                   children: <Widget>[
                     Image.asset('assets/netra.png'),
-                    Text('NETRA: TRANSFORMING LIVES',
+                    Text('VISION: TRANSFORMING LIVES',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             color: Colors.black,
@@ -273,7 +273,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                     child: Column(
                       children: <Widget>[
                         Text(
-                          "Designed for the blind and low vision community, this research project harnesses the power of NETRA to describe people, text, currency, color, and objects.",
+                          "Designed for the blind and low vision community, this research project harnesses the power of VISION to describe people, text, currency, color, and objects.",
                           textAlign: TextAlign.justify,
                           style: TextStyle(
                               color: Colors.black,
@@ -282,7 +282,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                         ),
                         SizedBox(height: 20),
                         Text(
-                          "Seeing NETRA is a research project that brings together the power of the cloud and NETRA to deliver an intelligent app designed to help you navigate your day. Point your phone’s camera, select a channel, and hear a description of what the NETRA has recognized around you.",
+                          "Seeing VISION is a research project that brings together the power of the cloud and VISION to deliver an intelligent app designed to help you navigate your day. Point your phone’s camera, select a channel, and hear a description of what the VISION has recognized around you.",
                           textAlign: TextAlign.justify,
                           style: TextStyle(
                               color: Colors.black,
@@ -291,7 +291,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                         ),
                         SizedBox(height: 20),
                         Text(
-                          "With this intelligent camera app, just hold up your phone and hear information about the world around you. Seeing NETRA can speak short text as soon as it appears in front of the camera, provide audio guidance to capture a printed page, and recognizes and narrates the text along with its original formatting. The app can also scan barcodes with guided audio cues to identify products, recognize and describe people around you and their facial expressions, as well as describing scenes around you using the power of NETRA.",
+                          "With this intelligent camera app, just hold up your phone and hear information about the world around you. Seeing VISION can speak short text as soon as it appears in front of the camera, provide audio guidance to capture a printed page, and recognizes and narrates the text along with its original formatting. The app can also scan barcodes with guided audio cues to identify products, recognize and describe people around you and their facial expressions, as well as describing scenes around you using the power of VISION.",
                           textAlign: TextAlign.justify,
                           style: TextStyle(
                               color: Colors.black,

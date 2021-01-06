@@ -65,7 +65,7 @@ void MoveToLastScreen(){
                 padding: const EdgeInsets.symmetric(horizontal: 20.0),
                 child: Container(
                   child: Text(
-                    "We are sincere with a straightforward vision. We believe there is an amazing amount to be learned by working in a real-world app production environment, alongside other like-minded teens. With this in mind we formed our team and started working on this project named NETRA. We've had an amazing journey on working this project and now we feel confident that we can provide you a proffesional and effective solution in a timely manner.",
+                    "We are sincere with a straightforward vision. We believe there is an amazing amount to be learned by working in a real-world app production environment, alongside other like-minded teens. With this in mind we formed our team and started working on this project named VISION. We've had an amazing journey on working this project and now we feel confident that we can provide you a proffesional and effective solution in a timely manner.",
                     textAlign: TextAlign.justify,
                     style: TextStyle(
                         color: Colors.black,
@@ -87,7 +87,7 @@ void MoveToLastScreen(){
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
                           Text(
-                            "MENTORS ",
+                            "MENTOR ",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -119,7 +119,7 @@ void MoveToLastScreen(){
                       front: Card(
                           clipBehavior: Clip.antiAlias,
                           elevation: 20,
-                          color: Colors.black,
+                          color: Colors.blue[900],
                           child: Padding(
                             padding: const EdgeInsets.all(13.0),
                             child: Container(
@@ -129,13 +129,13 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/akhileshsir.png"),
+                                        AssetImage("assets/Mrignani.jpg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Akhilesh Verma",
+                                    "Mrignainy kansal",
                                     style: TextStyle(color: Colors.white,fontFamily: 'Crimson Text'),
                                   ),
                                   SizedBox(
@@ -162,21 +162,143 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/akhileshsir.png"),
+                                        AssetImage("assets/Mrignani.jpg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Akhilesh Verma",
+                                    "Mrignainy kansal",
                                     style: TextStyle(color: Colors.white,fontFamily: 'Crimson Text'),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "CSE",
+                                    "IT",
                                     style: TextStyle(color: Color(0xffffffff),fontFamily: 'Crimson Text'),
+                                  )
+                                ],
+                              ),
+                            ),
+                          )),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                 
+                ],
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                  height: 40,
+                  color: Colors.blue[900],
+                  child: Column(
+                    children: <Widget>[
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Text(
+                            "OUR ",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20),
+                          ),
+                          Text(
+                            "TEAM",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20),
+                          ),
+                        ],
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Container(
+                        height: 2,
+                        width: 170,
+                        color: Colors.white,
+                      )
+                    ],
+                  )),
+              SizedBox(
+                height: 30,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  Expanded(
+                    child: FlipCard(
+                      direction: FlipDirection.HORIZONTAL,
+                      front: Card(
+                          clipBehavior: Clip.antiAlias,
+                          elevation: 20,
+                          color: Colors.blue[900],
+                          child: Padding(
+                            padding: const EdgeInsets.all(13.0),
+                            child: Container(
+                              child: Column(
+                                children: <Widget>[
+                                  CircleAvatar(
+                                    radius: 65,
+                                    backgroundColor: Colors.black,
+                                    backgroundImage:
+                                        AssetImage("assets/photo.jpg"),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text(
+                                    "Shashank Sahai",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text(
+                                    "Developer",
+                                    style: TextStyle(color: Color(0xffffffff)),
+                                  )
+                                ],
+                              ),
+                            ),
+                          )),
+                      back: Card(
+                          clipBehavior: Clip.antiAlias,
+                          elevation: 20,
+                          color: Colors.black,
+                          child: Padding(
+                            padding: const EdgeInsets.all(13.0),
+                            child: Container(
+                              child: Column(
+                                children: <Widget>[
+                                  CircleAvatar(
+                                    radius: 65,
+                                    backgroundColor: Colors.black,
+                                    backgroundImage:
+                                        AssetImage("assets/photo.jpg"),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text(
+                                    "IT",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text(
+                                    "4 Year",
+                                    style: TextStyle(color: Color(0xffffffff)),
                                   )
                                 ],
                               ),
@@ -193,7 +315,7 @@ void MoveToLastScreen(){
                       front: Card(
                           clipBehavior: Clip.antiAlias,
                           elevation: 20,
-                          color: Colors.black,
+                          color: Colors.blue[900],
                           child: Padding(
                             padding: const EdgeInsets.all(13.0),
                             child: Container(
@@ -203,21 +325,21 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/nishumaam.png"),
+                                        AssetImage("assets/ripu.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Nishu Bansal",
-                                    style: TextStyle(color: Colors.white,fontFamily: 'Crimson Text'),
+                                    "Ripudaman singh",
+                                    style: TextStyle(color: Colors.white),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Mentor",
-                                    style: TextStyle(color: Color(0xffffffff),fontFamily: 'Crimson Text'),
+                                    "Developer",
+                                    style: TextStyle(color: Color(0xffffffff)),
                                   )
                                 ],
                               ),
@@ -236,21 +358,21 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/nishumaam.png"),
+                                        AssetImage("assets/ripu.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Nishu Bansal",
-                                    style: TextStyle(color: Colors.white,fontFamily: 'Crimson Text'),
+                                    "IT",
+                                    style: TextStyle(color: Colors.white),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "CSE",
-                                    style: TextStyle(color: Color(0xffffffff),fontFamily: 'Crimson Text'),
+                                    "4 Year",
+                                    style: TextStyle(color: Color(0xffffffff)),
                                   )
                                 ],
                               ),
@@ -261,200 +383,77 @@ void MoveToLastScreen(){
                 ],
               ),
               SizedBox(
-                height: 20,
-              ),
-              // Container(
-              //     height: 40,
-              //     color: Colors.blue[900],
-              //     child: Column(
-              //       children: <Widget>[
-              //         Row(
-              //           mainAxisAlignment: MainAxisAlignment.center,
-              //           crossAxisAlignment: CrossAxisAlignment.center,
-              //           children: <Widget>[
-              //             Text(
-              //               "OUR ",
-              //               style: TextStyle(
-              //                   color: Colors.white,
-              //                   fontWeight: FontWeight.bold,
-              //                   fontSize: 20),
-              //             ),
-              //             Text(
-              //               "TEAM",
-              //               style: TextStyle(
-              //                   color: Colors.white,
-              //                   fontWeight: FontWeight.bold,
-              //                   fontSize: 20),
-              //             ),
-              //           ],
-              //         ),
-              //         SizedBox(
-              //           height: 5,
-              //         ),
-              //         Container(
-              //           height: 2,
-              //           width: 170,
-              //           color: Colors.white,
-              //         )
-              //       ],
-              //     )),
-              // SizedBox(
-              //   height: 30,
-              // ),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.center,
-              //   crossAxisAlignment: CrossAxisAlignment.center,
-              //   children: <Widget>[
-              //     Expanded(
-              //       child: FlipCard(
-              //         direction: FlipDirection.HORIZONTAL,
-              //         front: Card(
-              //             clipBehavior: Clip.antiAlias,
-              //             elevation: 20,
-              //             color: Colors.black,
-              //             child: Padding(
-              //               padding: const EdgeInsets.all(13.0),
-              //               child: Container(
-              //                 child: Column(
-              //                   children: <Widget>[
-              //                     CircleAvatar(
-              //                       radius: 65,
-              //                       backgroundColor: Colors.black,
-              //                       backgroundImage:
-              //                           AssetImage("assets/sidsir.png"),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "Siddharth Singh",
-              //                       style: TextStyle(color: Colors.white),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "Developer",
-              //                       style: TextStyle(color: Color(0xffffffff)),
-              //                     )
-              //                   ],
-              //                 ),
-              //               ),
-              //             )),
-              //         back: Card(
-              //             clipBehavior: Clip.antiAlias,
-              //             elevation: 20,
-              //             color: Colors.black,
-              //             child: Padding(
-              //               padding: const EdgeInsets.all(13.0),
-              //               child: Container(
-              //                 child: Column(
-              //                   children: <Widget>[
-              //                     CircleAvatar(
-              //                       radius: 65,
-              //                       backgroundColor: Colors.black,
-              //                       backgroundImage:
-              //                           AssetImage("assets/sidsir.png"),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "CSE",
-              //                       style: TextStyle(color: Colors.white),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "4 Year",
-              //                       style: TextStyle(color: Color(0xffffffff)),
-              //                     )
-              //                   ],
-              //                 ),
-              //               ),
-              //             )),
-              //       ),
-              //     ),
-              //     SizedBox(
-              //       width: 20,
-              //     ),
-              //     Expanded(
-              //       child: FlipCard(
-              //         direction: FlipDirection.HORIZONTAL,
-              //         front: Card(
-              //             clipBehavior: Clip.antiAlias,
-              //             elevation: 20,
-              //             color: Colors.black,
-              //             child: Padding(
-              //               padding: const EdgeInsets.all(13.0),
-              //               child: Container(
-              //                 child: Column(
-              //                   children: <Widget>[
-              //                     CircleAvatar(
-              //                       radius: 65,
-              //                       backgroundColor: Colors.black,
-              //                       backgroundImage:
-              //                           AssetImage("assets/sidsir.png"),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "Varun Singh",
-              //                       style: TextStyle(color: Colors.white),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "Developer",
-              //                       style: TextStyle(color: Color(0xffffffff)),
-              //                     )
-              //                   ],
-              //                 ),
-              //               ),
-              //             )),
-              //         back: Card(
-              //             clipBehavior: Clip.antiAlias,
-              //             elevation: 20,
-              //             color: Colors.black,
-              //             child: Padding(
-              //               padding: const EdgeInsets.all(13.0),
-              //               child: Container(
-              //                 child: Column(
-              //                   children: <Widget>[
-              //                     CircleAvatar(
-              //                       radius: 65,
-              //                       backgroundColor: Colors.black,
-              //                       backgroundImage:
-              //                           AssetImage("assets/sidsir.png"),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "CSE",
-              //                       style: TextStyle(color: Colors.white),
-              //                     ),
-              //                     SizedBox(
-              //                       height: 10,
-              //                     ),
-              //                     Text(
-              //                       "4 Year",
-              //                       style: TextStyle(color: Color(0xffffffff)),
-              //                     )
-              //                   ],
-              //                 ),
-              //               ),
-              //             )),
-              //       ),
-              //     )
-              //   ],
-              // ),
-              SizedBox(
                 height: 40,
               ),
+               FlipCard(
+                 direction: FlipDirection.HORIZONTAL,
+                 front: Card(
+                     clipBehavior: Clip.antiAlias,
+                     elevation: 20,
+                     color: Colors.blue[900],
+                     child: Padding(
+                       padding: const EdgeInsets.all(13.0),
+                       child: Container(
+                         child: Column(
+                           children: <Widget>[
+                             CircleAvatar(
+                               radius: 65,
+                               backgroundColor: Colors.black,
+                               backgroundImage:
+                                   AssetImage("assets/disha.jpeg"),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "Disha Rastogi",
+                               style: TextStyle(color: Colors.white),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "Developer",
+                               style: TextStyle(color: Color(0xffffffff)),
+                             )
+                           ],
+                         ),
+                       ),
+                     )),
+                 back: Card(
+                     clipBehavior: Clip.antiAlias,
+                     elevation: 20,
+                     color: Colors.black,
+                     child: Padding(
+                       padding: const EdgeInsets.all(13.0),
+                       child: Container(
+                         child: Column(
+                           children: <Widget>[
+                             CircleAvatar(
+                               radius: 65,
+                               backgroundColor: Colors.black,
+                               backgroundImage:
+                                   AssetImage("assets/disha.jpeg"),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "IT",
+                               style: TextStyle(color: Colors.white),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "4 Year",
+                               style: TextStyle(color: Color(0xffffffff)),
+                             )
+                           ],
+                         ),
+                       ),
+                     )),
+               )
             ],
           ),
         ),
