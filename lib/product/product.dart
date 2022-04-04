@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter/material.dart';
 import 'package:netra/menu_dashboard/menu_dashboard.dart';
-import 'package:netra/query/query.dart';
+
 
 class Product extends StatefulWidget {
   File image;
@@ -121,7 +121,6 @@ class _ProductState extends State<Product> {
       },
       child: Scaffold(
         resizeToAvoidBottomInset: true,
-        resizeToAvoidBottomPadding: false,
         backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.blue[900],
@@ -260,28 +259,6 @@ class _ProductState extends State<Product> {
                         ],
                       ),
                     ),
-
-                    Padding(
-                      padding: EdgeInsets.all(1),
-                      child: new GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => Query()),
-                          );
-                        },
-                        child: Center(
-                            child: new Text(
-                          "Click Here For Any Query",
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 17,
-                              fontFamily: 'Crimson Text',
-                              fontWeight: FontWeight.bold),
-                        )),
-                      ),
-                    ),
-                    SizedBox(height: 10)
                     // SizedBox(height: 05),
 
                     // new Container(

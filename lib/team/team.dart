@@ -129,13 +129,13 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/Mrignani.jpg"),
+                                        AssetImage("assets/sahu.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Mrignainy kansal",
+                                    "Dr. Shashank Sahu",
                                     style: TextStyle(color: Colors.white,fontFamily: 'Crimson Text'),
                                   ),
                                   SizedBox(
@@ -162,20 +162,20 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/Mrignani.jpg"),
+                                        AssetImage("assets/sahu.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Mrignainy kansal",
+                                    "Dr. Shashank Sahu",
                                     style: TextStyle(color: Colors.white,fontFamily: 'Crimson Text'),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "IT",
+                                    "CSE",
                                     style: TextStyle(color: Color(0xffffffff),fontFamily: 'Crimson Text'),
                                   )
                                 ],
@@ -251,20 +251,20 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/photo.jpg"),
+                                        AssetImage("assets/riya.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Shashank Sahai",
+                                    "Riya Garg",
                                     style: TextStyle(color: Colors.white),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Developer",
+                                    "Flutter Developer",
                                     style: TextStyle(color: Color(0xffffffff)),
                                   )
                                 ],
@@ -284,13 +284,13 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/photo.jpg"),
+                                        AssetImage("assets/riya.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "IT",
+                                    "CSE",
                                     style: TextStyle(color: Colors.white),
                                   ),
                                   SizedBox(
@@ -325,20 +325,20 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/ripu.jpeg"),
+                                        AssetImage("assets/nan.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Ripudaman singh",
+                                    "Nandini Goel",
                                     style: TextStyle(color: Colors.white),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "Developer",
+                                    "Backend Developer",
                                     style: TextStyle(color: Color(0xffffffff)),
                                   )
                                 ],
@@ -358,13 +358,13 @@ void MoveToLastScreen(){
                                     radius: 65,
                                     backgroundColor: Colors.black,
                                     backgroundImage:
-                                        AssetImage("assets/ripu.jpeg"),
+                                        AssetImage("assets/nan.jpeg"),
                                   ),
                                   SizedBox(
                                     height: 10,
                                   ),
                                   Text(
-                                    "IT",
+                                    "CSE",
                                     style: TextStyle(color: Colors.white),
                                   ),
                                   SizedBox(
@@ -385,7 +385,12 @@ void MoveToLastScreen(){
               SizedBox(
                 height: 40,
               ),
-               FlipCard(
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  Expanded(
+                    child: FlipCard(
                  direction: FlipDirection.HORIZONTAL,
                  front: Card(
                      clipBehavior: Clip.antiAlias,
@@ -400,20 +405,20 @@ void MoveToLastScreen(){
                                radius: 65,
                                backgroundColor: Colors.black,
                                backgroundImage:
-                                   AssetImage("assets/disha.jpeg"),
+                                   AssetImage("assets/laksh.jpg"),
                              ),
                              SizedBox(
                                height: 10,
                              ),
                              Text(
-                               "Disha Rastogi",
+                               "Lakshya Gautam",
                                style: TextStyle(color: Colors.white),
                              ),
                              SizedBox(
                                height: 10,
                              ),
                              Text(
-                               "Developer",
+                               "Flutter Developer",
                                style: TextStyle(color: Color(0xffffffff)),
                              )
                            ],
@@ -433,13 +438,13 @@ void MoveToLastScreen(){
                                radius: 65,
                                backgroundColor: Colors.black,
                                backgroundImage:
-                                   AssetImage("assets/disha.jpeg"),
+                                   AssetImage("assets/laksh.jpg"),
                              ),
                              SizedBox(
                                height: 10,
                              ),
                              Text(
-                               "IT",
+                               "CSE",
                                style: TextStyle(color: Colors.white),
                              ),
                              SizedBox(
@@ -453,7 +458,84 @@ void MoveToLastScreen(){
                          ),
                        ),
                      )),
-               )
+               ),
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Expanded(
+                    child: FlipCard(
+                 direction: FlipDirection.HORIZONTAL,
+                 front: Card(
+                     clipBehavior: Clip.antiAlias,
+                     elevation: 20,
+                     color: Colors.blue[900],
+                     child: Padding(
+                       padding: const EdgeInsets.all(13.0),
+                       child: Container(
+                         child: Column(
+                           children: <Widget>[
+                             CircleAvatar(
+                               radius: 65,
+                               backgroundColor: Colors.black,
+                               backgroundImage:
+                                   AssetImage("assets/rishab.jpeg"),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "Rishabh Mittal",
+                               style: TextStyle(color: Colors.white),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "UI Developer",
+                               style: TextStyle(color: Color(0xffffffff)),
+                             )
+                           ],
+                         ),
+                       ),
+                     )),
+                 back: Card(
+                     clipBehavior: Clip.antiAlias,
+                     elevation: 20,
+                     color: Colors.black,
+                     child: Padding(
+                       padding: const EdgeInsets.all(13.0),
+                       child: Container(
+                         child: Column(
+                           children: <Widget>[
+                             CircleAvatar(
+                               radius: 65,
+                               backgroundColor: Colors.black,
+                               backgroundImage:
+                                   AssetImage("assets/rishab.jpeg"),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "CSE",
+                               style: TextStyle(color: Colors.white),
+                             ),
+                             SizedBox(
+                               height: 10,
+                             ),
+                             Text(
+                               "4 Year",
+                               style: TextStyle(color: Color(0xffffffff)),
+                             )
+                           ],
+                         ),
+                       ),
+                     )),
+               ),
+                  )
+                ],
+              ),
             ],
           ),
         ),

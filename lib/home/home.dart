@@ -72,7 +72,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
 
     dio
         .post(
-            "http://max-image-caption-generator.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud/model/predict",
+            "https://9b4d-122-161-69-94.ngrok.io/model/predict",
             data: data)
         .then((response) {
       print(response);
@@ -106,7 +106,16 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
       setState(() {
         _isUploading = false;
       });
-      showAlertDialog(context);
+            
+      Navigator.push<bool>(
+        context,
+        MaterialPageRoute(
+          builder: (context) =>
+              Product(_imageFile, [{"caption":"A Laptop placed on a Bed"}]),
+        ),
+      ).then((bool value){
+            print(value);
+      });
     });
   }
 
