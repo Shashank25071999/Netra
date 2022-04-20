@@ -72,7 +72,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
 
     dio
         .post(
-            "https://9b4d-122-161-69-94.ngrok.io/model/predict",
+            "https://fb03-122-161-79-45.ngrok.io/model/predict",
             data: data)
         .then((response) {
       print(response);
